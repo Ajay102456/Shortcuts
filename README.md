@@ -1,6 +1,6 @@
 # Shortcuts: code, frozen protocol and results
 
-Materials for the study *Which Signals Reveal Benchmark Shortcuts in IoT Intrusion Detection? A Pre-Registered Evaluation of Sufficiency, SHAP Concentration and Simple Baselines*.
+Materials for the study *Which Signals Reveal Benchmark Shortcuts in IoT Intrusion Detection? A Frozen-Protocol Evaluation of Sufficiency, SHAP Concentration and Simple Baselines*.
 
 The study asks whether model-based signals (sufficiency, SHAP concentration, their product, a transfer gap) detect benchmark shortcuts better than simple data-level baselines (correlation ratio, mutual information, RFE rank) on CICIoT2023, Edge-IIoTset and CICIoMT2024. Both pre-registered hypotheses were not supported; see the paper.
 
@@ -29,3 +29,6 @@ The repository licence is the one in `LICENSE` (CC0 1.0). It covers this code an
 
 ## AI assistance
 An AI assistant (Claude, Anthropic) was used for planning, code, analysis scripting and drafting. See the paper's disclosure.
+
+## Timestamps
+`05_results/full/timestamps/` holds OpenTimestamps proofs (`.ots`) for the freeze log and the pre-registration, submitted on 2026-10-31, after the experiments. They show that these files existed by that date; they do not show that the files predate the runs. Verify with the `ots` client (`ots verify freeze_log_full.md.ots`) after the proof has been upgraded with a Bitcoin attestation.
