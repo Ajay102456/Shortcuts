@@ -1,0 +1,13 @@
+{
+ "mode": "evaluate",
+ "versions": {
+  "lightgbm": "4.7.0",
+  "shap": "0.52.0",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6"
+ },
+ "pool_sha256": "04cbc572d8c3dabc2a5d893a9c50f1a2a3d3b08f592b98a3cb039be166e4f83e",
+ "code_sha256": "c3ed2d5b03b2515522025a126eefafde9c245f8e45eb6b819836c84969f74f61",
+ "prereg_sha256": "2e9423e6dd7149afa19b1a918aa711ffb464d26520797ef26fd33ed2c08edfc5",
+ "utc": "2026-10-29T16:17:10Z"
+}

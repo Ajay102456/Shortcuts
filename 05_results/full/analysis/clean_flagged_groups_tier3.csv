@@ -1,0 +1,27 @@
+members,n_seeds,mean_S,mean_C,mean_T,bench,model
+AVG|Tot size|Magnitue,25,0.6804,0.1064,0.4192,ciciomt,lgbm
+IAT|Number|Weight,30,0.9191,0.3502,0.8509,ciciomt,lgbm
+Tot sum,6,0.6752,0.0298,0.3567,ciciomt,lgbm
+AVG|Tot size|Magnitue,15,0.7001,0.0447,0.3878,ciciomt,mlp
+Max,1,0.6031,0.0155,0.1885,ciciomt,mlp
+Min,5,0.5933,0.007,0.3807,ciciomt,mlp
+AVG|Tot size|Magnitue,25,0.688,0.1722,0.4275,ciciomt,rf
+IAT|Number|Weight,30,0.8569,0.2109,0.7081,ciciomt,rf
+Max|Std,30,0.7822,0.0664,0.4819,ciciot,lgbm
+Tot sum,21,0.6611,0.1599,0.3958,ciciot,lgbm
+AVG|Tot size,3,0.5219,0.0596,0.1744,ciciot,mlp
+Max|Std,15,0.5942,0.0468,0.3203,ciciot,mlp
+Tot sum,5,0.5188,0.0652,0.2047,ciciot,mlp
+AVG|Tot size,1,0.6707,0.1155,0.3126,ciciot,rf
+Max|Std,30,0.7898,0.0667,0.4567,ciciot,rf
+Tot sum,24,0.6775,0.0954,0.3978,ciciot,rf
+tcp.ack,30,0.4788,0.1188,,edge,lgbm
+tcp.dstport,8,0.4494,0.1424,,edge,lgbm
+tcp.seq,19,0.4607,0.0576,,edge,lgbm
+http.request.method|http.request.version,4,0.2268,0.1716,,edge,mlp
+tcp.dstport,9,0.2513,0.0792,,edge,mlp
+tcp.flags|tcp.flags.ack,4,0.2275,0.1248,,edge,mlp
+tcp.len,6,0.2423,0.0123,,edge,mlp
+tcp.ack,30,0.4881,0.088,,edge,rf
+tcp.dstport,3,0.4564,0.0985,,edge,rf
+tcp.seq,18,0.4699,0.0671,,edge,rf

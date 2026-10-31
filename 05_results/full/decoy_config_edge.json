@@ -1,0 +1,28 @@
+{
+ "decoy_a": [
+  3,
+  24
+ ],
+ "decoy_b75": [
+  16,
+  9
+ ],
+ "decoy_b90": [
+  22,
+  9
+ ],
+ "_names": {
+  "decoy_a": [
+   "icmp.seq_le",
+   "udp.stream"
+  ],
+  "decoy_b75": [
+   "tcp.connection.syn",
+   "http.response"
+  ],
+  "decoy_b90": [
+   "tcp.seq",
+   "http.response"
+  ]
+ }
+}

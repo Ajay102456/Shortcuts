@@ -1,0 +1,4 @@
+bench,model,seed,condition,status,seconds
+edge,lgbm,1,clean,ok,30.5
+edge,lgbm,1,plant_medium,ok,29.2
+edge,lgbm,1,redundant_ungrouped,ok,32.2

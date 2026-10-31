@@ -1,0 +1,6 @@
+{'seed': 101, 'condition': 'clean', 'status': 'ok', 'seconds': 15.7}
+{'seed': 102, 'condition': 'clean', 'status': 'ok', 'seconds': 16.6}
+{'seed': 103, 'condition': 'clean', 'status': 'ok', 'seconds': 17.2}
+{'seed': 104, 'condition': 'clean', 'status': 'ok', 'seconds': 16.5}
+{'seed': 105, 'condition': 'clean', 'status': 'ok', 'seconds': 16.7}
+wrote /home/s/Documents/XAI-IOTEdge/Shortcut_Paper/05_results/pilot

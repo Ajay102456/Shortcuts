@@ -1,0 +1,21 @@
+{'bench': 'ciciot', 'model': 'lgbm', 'seed': 1, 'condition': 'clean', 'status': 'ok', 'seconds': 48.5}
+{'bench': 'ciciot', 'model': 'lgbm', 'seed': 1, 'condition': 'plant_medium', 'status': 'ok', 'seconds': 54.2}
+{'bench': 'ciciot', 'model': 'lgbm', 'seed': 1, 'condition': 'redundant_ungrouped', 'status': 'ok', 'seconds': 58.9}
+wrote /home/s/Documents/XAI-IOTEdge/Shortcut_Paper/05_results/full
+{'bench': 'ciciot', 'model': 'rf', 'seed': 1, 'condition': 'clean', 'status': 'ok', 'seconds': 34.9}
+{'bench': 'ciciot', 'model': 'rf', 'seed': 1, 'condition': 'plant_medium', 'status': 'ok', 'seconds': 35.7}
+{'bench': 'ciciot', 'model': 'rf', 'seed': 1, 'condition': 'redundant_ungrouped', 'status': 'ok', 'seconds': 38.4}
+wrote /home/s/Documents/XAI-IOTEdge/Shortcut_Paper/05_results/full
+{'bench': 'ciciot', 'model': 'mlp', 'seed': 1, 'condition': 'clean', 'status': 'ok', 'seconds': 92.0}
+{'bench': 'ciciot', 'model': 'mlp', 'seed': 1, 'condition': 'plant_medium', 'status': 'ok', 'seconds': 92.7}
+{'bench': 'ciciot', 'model': 'mlp', 'seed': 1, 'condition': 'redundant_ungrouped', 'status': 'ok', 'seconds': 101.1}
+wrote /home/s/Documents/XAI-IOTEdge/Shortcut_Paper/05_results/full
+{'bench': 'edge', 'model': 'lgbm', 'seed': 1, 'condition': 'clean', 'status': 'ok', 'seconds': 60.5}
+{'bench': 'edge', 'model': 'lgbm', 'seed': 1, 'condition': 'plant_medium', 'status': 'ok', 'seconds': 63.6}
+{'bench': 'edge', 'model': 'lgbm', 'seed': 1, 'condition': 'redundant_ungrouped', 'status': 'ok', 'seconds': 71.2}
+wrote /home/s/Documents/XAI-IOTEdge/Shortcut_Paper/05_results/full
+{'bench': 'ciciomt', 'model': 'lgbm', 'seed': 1, 'condition': 'clean', 'status': 'ok', 'seconds': 40.2}
+{'bench': 'ciciomt', 'model': 'lgbm', 'seed': 1, 'condition': 'plant_medium', 'status': 'ok', 'seconds': 40.9}
+{'bench': 'ciciomt', 'model': 'lgbm', 'seed': 1, 'condition': 'redundant_ungrouped', 'status': 'ok', 'seconds': 44.9}
+wrote /home/s/Documents/XAI-IOTEdge/Shortcut_Paper/05_results/full
+finished

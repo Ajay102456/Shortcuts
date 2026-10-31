@@ -1,0 +1,17 @@
+planted-group count per seed (min,max): [4, 4]
+groups per run (min,max): [39, 42]
+           S      C      A    eta     mi    rfe
+model                                          
+lgbm   0.095  0.010  0.001  0.903  0.273  0.926
+mlp    0.126  0.019  0.002  0.902  0.273  0.927
+rf     0.096  0.021  0.002  0.903  0.273  0.926
+example planted members: members
+dns.qry.name.len     75
+mqtt.conack.flags    75
+mqtt.protoname       75
+mqtt.topic           75
+score      A      C      S    eta    mi    rfe
+model                                         
+lgbm   0.056  0.133  0.444  0.817  1.32  0.977
+mlp    0.027  0.152  0.217  0.817  1.32  0.977
+rf     0.040  0.094  0.455  0.817  1.32  0.977

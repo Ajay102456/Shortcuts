@@ -1,0 +1,28 @@
+{
+ "decoy_a": [
+  10,
+  43
+ ],
+ "decoy_b75": [
+  43,
+  8
+ ],
+ "decoy_b90": [
+  33,
+  8
+ ],
+ "_names": {
+  "decoy_a": [
+   "ack_flag_number",
+   "Variance"
+  ],
+  "decoy_b75": [
+   "Variance",
+   "rst_flag_number"
+  ],
+  "decoy_b90": [
+   "Min",
+   "rst_flag_number"
+  ]
+ }
+}

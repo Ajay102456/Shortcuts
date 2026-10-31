@@ -1,0 +1,4 @@
+bench,model,seed,condition,status,seconds
+ciciomt,lgbm,1,clean,ok,22.5
+ciciomt,lgbm,1,plant_medium,ok,22.4
+ciciomt,lgbm,1,redundant_ungrouped,ok,24.1

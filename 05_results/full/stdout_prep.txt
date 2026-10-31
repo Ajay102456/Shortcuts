@@ -1,0 +1,42 @@
+{
+ "decoy_a": [
+  "Number",
+  "Protocol Type"
+ ],
+ "decoy_b75": [
+  "UDP",
+  "ack_flag_number"
+ ],
+ "decoy_b90": [
+  "HTTPS",
+  "ack_flag_number"
+ ]
+}
+{
+ "decoy_a": [
+  "icmp.seq_le",
+  "udp.stream"
+ ],
+ "decoy_b75": [
+  "tcp.flags",
+  "dns.qry.name"
+ ],
+ "decoy_b90": [
+  "tcp.ack_raw",
+  "dns.qry.name"
+ ]
+}
+{
+ "decoy_a": [
+  "ack_flag_number",
+  "Variance"
+ ],
+ "decoy_b75": [
+  "Variance",
+  "rst_flag_number"
+ ],
+ "decoy_b90": [
+  "Min",
+  "rst_flag_number"
+ ]
+}

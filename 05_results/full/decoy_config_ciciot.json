@@ -1,0 +1,28 @@
+{
+ "decoy_a": [
+  37,
+  1
+ ],
+ "decoy_b75": [
+  23,
+  8
+ ],
+ "decoy_b90": [
+  16,
+  8
+ ],
+ "_names": {
+  "decoy_a": [
+   "Number",
+   "Protocol Type"
+  ],
+  "decoy_b75": [
+   "UDP",
+   "ack_flag_number"
+  ],
+  "decoy_b90": [
+   "HTTPS",
+   "ack_flag_number"
+  ]
+ }
+}

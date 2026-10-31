@@ -1,0 +1,12 @@
+{
+ "mode": "timing",
+ "versions": {
+  "lightgbm": "4.7.0",
+  "shap": "0.52.0",
+  "torch": "2.14.1+cpu",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6"
+ },
+ "code_sha256": "c6af3ca3b8753984ee22ee9bc7f098fe589c9782eaa4676287e2459940846b9a",
+ "utc": "2026-10-29T17:38:08Z"
+}
