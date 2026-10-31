@@ -1,0 +1,7 @@
+Benchmark,Model,Best,S minus best,CI lo,CI hi,A minus S,CI lo ,CI hi ,Holm p (S),Holm p (A),H1 met,H2 met
+ciciomt,lgbm,mi,0.0163,0.0105,0.0225,-0.0406,-0.0437,-0.0375,0.0006,0.0006,False,False
+ciciomt,mlp,mi,0.0449,0.0373,0.053,-0.0056,-0.009,-0.0019,0.0006,0.0078,False,False
+ciciomt,rf,mi,0.0188,0.013,0.0251,-0.0352,-0.0385,-0.032,0.0006,0.0006,False,False
+ciciot,lgbm,mi,-0.0126,-0.014,-0.0111,0.0016,-0.0013,0.0048,0.0006,0.2741,False,False
+ciciot,mlp,mi,0.0055,0.0028,0.0079,0.0215,0.0168,0.0262,0.0006,0.0006,False,False
+ciciot,rf,mi,-0.0131,-0.0146,-0.0116,0.048,0.0466,0.0494,0.0006,0.0006,False,False
