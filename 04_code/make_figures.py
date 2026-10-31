@@ -36,7 +36,7 @@ fig,ax=plt.subplots(figsize=(5.6,3.4)); y=np.arange(len(p))
 ax.errorbar(p.diff_S_minus_baseline,y,xerr=[p.diff_S_minus_baseline-p.ci_lo,p.ci_hi-p.diff_S_minus_baseline],fmt="o",capsize=2,label="S minus best baseline")
 ax.errorbar(p.diff_A_minus_S,y+0.2,xerr=[p.diff_A_minus_S-p.ci2_lo,p.ci2_hi-p.diff_A_minus_S],fmt="s",capsize=2,label="A minus S")
 ax.axvline(0.05,ls="--",c="k",lw=0.8);ax.axvline(0,c="grey",lw=0.6);ax.set_yticks(y);ax.set_yticklabels(p.row);ax.invert_yaxis()
-ax.set_xlabel("Difference in mean AUC (Family B); dashed = pre-registered 0.05 margin");ax.legend(fontsize=7,loc="lower right");fig.tight_layout();save(fig,"fig4_primary_differences");plt.close()
+ax.set_xlabel("Difference in mean AUC (Family B), dashed line at the pre-registered 0.05 margin");ax.legend(fontsize=7,loc="lower right");fig.tight_layout();save(fig,"fig4_primary_differences");plt.close()
 # Fig 5: Tier 2
 t=pd.read_csv("/home/s/Documents/XAI-IOTEdge/Shortcut_Paper/06_manuscript/tables/tier2.csv"); t=t[t.score.isin(["S","C","A","eta","mi","rfe"])]
 pv=t.pivot(index="score",columns="model",values="auc").reindex(["S","C","A","eta","mi","rfe"])
